@@ -1,0 +1,25 @@
+# Create a Pokedex
+
+This task is to create a small app which can search for pokemon by ID or by name. We will be using a simplified version
+of the Pokemon API, the [PokeAPI proxy](https://pokeapi-proxy.freecodecamp.rocks/).
+
+We will be making something similar to this in functionality, except it will be in Python: https://pokemon-search-app.freecodecamp.rocks/
+
+
+## PokeAPI
+- Have a look at the [PokeAPI proxy](https://pokeapi-proxy.freecodecamp.rocks/) and see what kind of response you get back for different pokemon.
+
+## Requirements
+Here's a list of functional requirements to make a minimum viable product:
+- The app accepts an input of a name or an id number
+- When the input is entered, a request is made to the PokeAPI using this identifier
+- When the pokemon is found:
+  - The app displays the name and image of the Pokemon
+  - The app displays some stats about the Pokemon
+- When the pokemon is not found:
+  - An error message appears (this can be any kind of format you choose)
+
+## Tech stack
+- You will be using Python to make this app
+- You can use streamlit to make a UI
+- You should use pytest for any unit tests

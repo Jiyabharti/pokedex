@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(https://db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf);
+}
+body{
+    background: #CD9356;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.front{
+    height: 100vh;
+    width:100%;
+    background: #F1B75A;
+    border-radius: 0 0 80% 0;
+}
+
+h1{
+    font-family: Pokemon;
+    font-size: 7em;
+    margin-top: 0;
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    color: #F2E7BC;
+    text-shadow: 5px 5px #CDB098;
+}
+
+p{
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+    width: 45%;
+    font-family: sans-serif;
+    color: #F2E7BC;
+    font-size: 1.2em;
+}
+
+
+img{
+    position: absolute;
+    width: 40%;
+    bottom: 2rem;
+    right: 3rem;
+}
